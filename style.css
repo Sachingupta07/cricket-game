@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://wallpaperset.com/w/full/4/7/4/240070.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cricket-Game{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+h1{
+ text-transform: uppercase;
+ color:beige;
+
+}
+
+
+.btn1{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(185, 144, 123);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.btn1:hover{
+    box-shadow: 2px 2px 14px rgb(206, 194, 194);
+    border: 3px solid black;
+    border-radius: 10px;
+}
